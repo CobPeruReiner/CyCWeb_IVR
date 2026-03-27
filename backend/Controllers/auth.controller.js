@@ -1,11 +1,19 @@
 const bcrypt = require("bcryptjs");
+
 const jwt = require("jsonwebtoken");
+
 const moment = require("moment");
+
 const { db } = require("../config/database_v1");
+
 const dotenv = require("dotenv");
+
 const { QueryTypes } = require("sequelize");
+
 const md5 = require("md5");
+
 const { verifyCaptcha } = require("../Utils/Captcha");
+
 const {
   incAttemptsCycWeb,
   bloquearSiCorrespondeCycWeb,
@@ -13,9 +21,8 @@ const {
   registrarLogSesion,
   resetAttemptsCycWeb,
 } = require("../Utils/LoginAttempt");
-const {
-  notifyPreviousSession,
-} = require("../../../5.CyCWebMigracion/backend/Utils/Notify");
+
+const { notifyPreviousSession } = require("../Utils/Notify");
 
 dotenv.config({ path: "./.env" });
 
@@ -279,7 +286,7 @@ const logOutInactividad = async (req, res) => {
     );
 
     try {
-      notifyPreviousSession?.(userId);
+      notifyPreviousSession(userId);
     } catch {}
 
     return res.status(200).json({ ok: true });

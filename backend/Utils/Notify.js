@@ -1,6 +1,10 @@
-// Helper de notificacion
+let notifyPreviousSession;
+
 const injectNotifier = (fn) => {
   notifyPreviousSession = fn;
 };
 
-module.exports = { injectNotifier };
+module.exports = {
+  injectNotifier,
+  notifyPreviousSession: (userId) => notifyPreviousSession?.(userId),
+};
