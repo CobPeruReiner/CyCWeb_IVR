@@ -1,0 +1,47 @@
+pipeline {
+    agent any
+    parameters {
+        string(name:'name_container', defaultValue:'proyecto-qa', description : 'nombre del docker')
+        string(name:'name_image', defaultValue:'yproyecto-qa', description : 'nombre del docker')
+        string(name:'tag_image', defaultValue:'latest', description : 'nombre del docker')
+        string(name:'port_image', defaultValue:'3003', description : 'nombre del docker')
+    }
+    environment {
+        appName = "${name_container}${tag_image}${port_image}"
+    }
+    stages {
+        stage('Remove Image - Docker') {
+            when {
+                expression {
+                    DOCKER_EXIST = sh(returnStdout:true,script :'echo "$(docker ps -q --filter name=${appName})"')
+                    return DOCKER_EXIST != ''
+                }
+            }
+            steps {
+                script{
+                    sh '''
+                    docker stop ${appName}
+                    '''
+                }
+            }
+        }
+        stage('Build -Docker') {
+            steps {
+               script{
+                    sh '''
+                    docker build . -t ${name_image}:${tag_image}
+                    '''
+                }
+            }
+        }
+        stage('Run Docker') {
+            steps {
+               script{
+                    sh '''
+                    docker run -dtp  ${port_image}:3000 --name ${appName} ${name_image}:${tag_image}
+                    '''
+                }
+            }
+        }
+    }
+}

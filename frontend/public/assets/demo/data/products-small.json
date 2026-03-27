@@ -1,0 +1,30 @@
+{
+    "data": [
+        {"id": "1000","code": "Panorama A", "sub": "A.1 Accionistas inmediatos de la empresa declarante","name": "Personas naturales y jurídicas relacionadas con la empresa declarante a setiembre 2019","description": "Product Description","image": "bamboo-watch.jpg","price": 65,"category": "Pendiente","quantity": 24,"inventoryStatus": "INSTOCK","rating": 5},
+        {"id": "10011","code": "Panorama A","sub": "A.2 Empresas de propiedad immediatas de la empresa declarante","name": "Personas naturales y jurídicas relacionadas con la empresa declarante a setiembre 2019","description": "Product Description","image": "bamboo-watch.jpg","price": 65,"category": "Pendiente","quantity": 24,"inventoryStatus": "INSTOCK","rating": 5}
+    ],
+
+    "respuesta": [
+        {"id": "11","code": "Panorama A","name": "Personas naturales y jurídicas relacionadas con la empresa declarante a setiembre 2019","description": "Product Description","image": "bamboo-watch.jpg","price": 65,"category": "En Proceso","quantity": 24,"inventoryStatus": "INSTOCK","rating": 5},
+        {"id": "10011","code": "Panorama B","name": "Balance general de la empresa declarante(*)","description": "Product Description","image": "black-watch.jpg","price": 72,"category": "Completado","quantity": 61,"inventoryStatus": "INSTOCK","rating": 4},
+        {"id": "10021","code": "Panorama C","name": "Compras y ventas de bienes y servicios de la empresa declarante(*)","description": "Product Description","image": "blue-band.jpg","price": 79,"category": "Pendiente","quantity": 2,"inventoryStatus": "LOWSTOCK","rating": 3},
+        {"id": "1003","code": "Tabla I","name": "Servicios con el Exterior","description": "Product Description","image": "blue-t-shirt.jpg","price": 29,"category": "Pendiente","quantity": 25,"inventoryStatus": "INSTOCK","rating": 5},
+        {"id": "1004","code": "Tabla II","name": "Derechos en instrumentos de deudas con no residente y depósitos en monedas extranjera","description": "Product Description","image": "bracelet.jpg","price": 15,"category": "Pendiente","quantity": 73,"inventoryStatus": "INSTOCK","rating": 4},
+        {"id": "1005","code": "Tabla III.1","name": "Obligaciones en instrumentos de deudas con no residentes","description": "Product Description","image": "brown-purse.jpg","price": 120,"category": "Pendiente","quantity": 0,"inventoryStatus": "OUTOFSTOCK","rating": 4},
+        {"id": "1006","code": "Tabla III.2","name": "Intereses por las obligaciones en instrumentos de deuda con no residentes.","description": "Product Description","image": "chakra-bracelet.jpg","price": 32,"category": "Pendiente","quantity": 5,"inventoryStatus": "LOWSTOCK","rating": 3},
+        {"id": "1007","code": "Tabla III.3","name": "Calendario de pagos del principal de las obligaciones en instrumentos de deuda.","description": "Product Description","image": "galaxy-earrings.jpg","price": 34,"category": "Pendiente","quantity": 23,"inventoryStatus": "INSTOCK","rating": 5},
+        {"id": "1008","code": "Tabla III.4","name": "Calendario de pagos de intereses por obligaciones en instrumentos de deuda.","description": "Product Description","image": "game-controller.jpg","price": 99,"category": "Pendiente","quantity": 2,"inventoryStatus": "LOWSTOCK","rating": 4},
+        {"id": "1009","code": "Tabla III.5","name": "Oblicaciones en instrumentos de deuda por moneda","description": "Product Description","image": "game-controller.jpg","price": 99,"category": "Pendiente","quantity": 2,"inventoryStatus": "LOWSTOCK","rating": 4},
+        {"id": "1010","code": "Tabla IV.1","name": "Derivados financieros según libros.","description": "Product Description","image": "game-controller.jpg","price": 99,"category": "Pendiente","quantity": 2,"inventoryStatus": "LOWSTOCK","rating": 4},
+        {"id": "1011","code": "Tabla IV.2","name": "Derivados funancieros: tenencias y transacciones entre residentes y no residentes.","description": "Product Description","image": "game-controller.jpg","price": 99,"category": "Pendiente","quantity": 2,"inventoryStatus": "LOWSTOCK","rating": 4},
+        {"id": "1012","code": "Tabla V","name": "Programa de inversione de la empresa declarante.","description": "Product Description","image": "game-controller.jpg","price": 99,"category": "Pendiente","quantity": 2,"inventoryStatus": "LOWSTOCK","rating": 4},
+        {"id": "1013","code": "Tabla VI.","name": "Derechos y obligaciones patrimoniales y en participaciones de capital. Posiciones y transaciones totales y con no residentes.","description": "Product Description","image": "game-controller.jpg","price": 99,"category": "Pendiente","quantity": 2,"inventoryStatus": "LOWSTOCK","rating": 4},
+        {"id": "1014","code": "Tabla VII.1","name": "Inversion directa por pais de origen y destino. Derechos y Obligaciones; valor de participacion patrimonial de las particiaonariones de capital con no residentes","description": "Product Description","image": "game-controller.jpg","price": 99,"category": "Pendiente","quantity": 2,"inventoryStatus": "LOWSTOCK","rating": 4},
+        {"id": "1015","code": "Tabla VII.2","name": "Inversion directa por pais de origen y de destino. Derechos y Obligaciones en instrumentos de deuda con no residentes.","description": "Product Description","image": "game-controller.jpg","price": 99,"category": "Pendiente","quantity": 2,"inventoryStatus": "LOWSTOCK","rating": 4}
+    ]
+}
+    
+
+
+
+

@@ -1,0 +1,15 @@
+services:
+  backend:
+    image: cobperureiner/cycweb-backend:latest
+    build:
+      context: .
+      dockerfile: ./backend/Dockerfile
+    env_file:
+      - ./backend/.env.production
+    ports:
+      - "5004:5004"
+    volumes:
+      - /var/log/cycweb_backend_logs:/app/logs
+      - ./backend/assets:/app/backend/assets
+      - ./backend/Adjuntos:/app/backend/Adjuntos
+    restart: unless-stopped

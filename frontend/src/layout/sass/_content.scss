@@ -1,0 +1,52 @@
+.layout-main {
+    transition: margin-left $transitionDuration;
+    padding: 57px 1rem 1rem 1rem;
+}
+
+.layout-title-header {
+    color: #0e376a !important;
+    font-size: 16px;
+}
+
+.layout-title-header-table {
+    font-size: 16px;
+}
+
+
+.blinking {
+    animation: blinkingText 1.0s infinite;
+}
+
+@keyframes blinkingText {
+    from {
+        background-color: rgba(255, 0, 0, 0.514);
+        border-color: rgba(255, 0, 0, 0.514)
+    }
+
+    to {
+        background-color: rgba(255, 145, 0, 0.945);
+        border-color: rgba(255, 145, 0, 0.945);
+    }
+}
+
+.p-card-title {
+    font-size: 14px !important;
+    color: #607d8b;
+
+}
+
+.p-card-title-form {
+    font-size: 13px !important;
+    color: #607d8b;
+    font-weight: 700;
+
+}
+
+
+.p-card .p-card-body {
+    padding: 0.5rem;
+}
+
+.p-card .p-card-content {
+    padding: 0.5rem 0;
+}

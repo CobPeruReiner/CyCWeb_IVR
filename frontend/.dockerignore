@@ -1,0 +1,22 @@
+# Ignorar dependencias (se instalan dentro del contenedor)
+node_modules/
+
+# Ignorar archivos de compilación (se regeneran con `npm run build`)
+build/
+
+# Ignorar archivos de control de versiones
+.git/
+.gitignore
+
+# Ignorar archivos de configuración y logs innecesarios
+Dockerfile
+.editorconfig
+.vscode/
+.idea/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar variables de entorno (credenciales y API keys)
+.env
+.env.production

@@ -1,0 +1,10 @@
+
+{
+    "data": [
+        {"id": "1000","code": "P2018","name": "2018","state":"1", "fecInicio":"01-01-2018", "fecFin":"01-01-2019", "stateName" : "Activo"},
+        {"id": "1001","code": "P2019","name": "2019","state":"1", "fecInicio":"01-01-2019", "fecFin":"01-01-2019","stateName" : "Activo"},
+        {"id": "1002","code": "P2020","name": "2020","state":"1", "fecInicio":"01-01-2020", "fecFin":"01-01-2019","stateName" : "Activo"},
+        {"id": "1003","code": "P2021","name": "2021","state":"1", "fecInicio":"01-01-2021", "fecFin":"01-01-2019","stateName" : "Activo"}
+    ]
+}
+    
